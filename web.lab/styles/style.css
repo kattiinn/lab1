@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("../media/image1.png");
+    background-size: cover;
+    margin-bottom: 35px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-family: "Gelasio";
+}
+
+.logo {
+    width: 186px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.sign-up {
+    margin-right: 25px;
+    background-color: rgba(27, 117, 187, 1);
+    border-radius: 5px;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: none;
+    color: white;
+}
+
+.hero {
+    width: 456px;
+    margin-left: 35px;
+}
+
+.par1 {
+    font-size: 20px;
+    color: rgba(27, 117, 187, 1);
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 57px;
+    font-weight: 600;
+    font-family: "Gelasio";
+    margin-block: 25px;
+}
+
+span {
+    color: rgba(27, 117, 187, 1);
+}
+
+.par2 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.read-more {
+    background-color: rgba(27, 117, 187, 1);
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 20px;
+}

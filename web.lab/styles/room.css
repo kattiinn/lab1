@@ -1,0 +1,12 @@
+.my-room {
+    display: flex;
+    text-align: center; 
+    align-items: center;
+}
+
+img {
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+}
+
